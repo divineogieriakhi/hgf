@@ -1,0 +1,78 @@
+.memories-page h2 {
+    font-size: 2.5em;
+    margin-top: 1em;
+    color: #d63384;
+    text-shadow: 1px 1px 2px #ffc0cb;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+  }
+  .memories-page {
+    background: linear-gradient(to bottom, #fff1f9, #ffeef4);
+    padding-bottom: 4em;
+  }
+  
+  .memories-page h2 {
+    font-size: 2.5em;
+    margin-top: 1em;
+    color: #c2185b;
+    text-shadow: 1px 1px 2px #ffb6c1;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 3em;
+    padding: 0 2em;
+  }
+  
+  .memory {
+    width: 300px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    overflow: hidden;
+    transition: transform 0.4s ease;
+  }
+  .memory:hover {
+    transform: scale(1.05);
+  }
+  
+  .memory img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .caption {
+    padding: 1em;
+    font-size: 1em;
+    background: #ffe4ec;
+    color: #880e4f;
+    font-style: italic;
+    border-top: 2px solid #ffb6c1;
+  }
+  
+  

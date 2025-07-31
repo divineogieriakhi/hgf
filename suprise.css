@@ -1,0 +1,279 @@
+.surprise-page {
+    background: linear-gradient(to bottom, #ffefff, #ffe3f1);
+    padding-bottom: 5em;
+  }
+  
+  .surprise-page h2 {
+    color: #d81b60;
+    font-size: 2em;
+    margin-top: 2em;
+  }
+  
+  .gift-box {
+    font-size: 5em;
+    cursor: pointer;
+    margin-top: 3em;
+    transition: transform 0.3s ease;
+  }
+  .gift-box:hover {
+    transform: rotate(10deg) scale(1.1);
+  }
+  
+  .gift-message {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background: #fff0f5;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    animation: fadeIn 2s ease;
+    color: #880e4f;
+  }
+  
+  .gift-image {
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 10px;
+  }
+  .surprise-page {
+    background: linear-gradient(to top, #fff0f5, #ffdeeb);
+    text-align: center;
+    padding-bottom: 5em;
+  }
+  
+  .gift-container {
+    margin-top: 4em;
+  }
+  
+  .gift-box {
+    font-size: 6em;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    display: inline-block;
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  .tap-text {
+    font-style: italic;
+    color: #c2185b;
+    margin-top: 0.5em;
+  }
+  
+  .surprise-content {
+    margin-top: 3em;
+    animation: fadeIn 2s ease forwards;
+  }
+  
+  .surprise-content h3 {
+    color: #d81b60;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .poem {
+    font-size: 1.3em;
+    background: #ffe4e1;
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    line-height: 1.6;
+    color: #880e4f;
+  }
+  
+  .surprise-photo {
+    margin-top: 2em;
+    max-width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  
+  .music-btn {
+    margin-top: 2em;
+    padding: 1em 2em;
+    background: #ff69b4;
+    color: white;
+    border: none;
+    font-size: 1em;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  canvas#confetti {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  .floating-message {
+    position: fixed;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 600px;
+    background: #ffe4e1;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    opacity: 0;
+    text-align: center;
+    color: #880e4f;
+    font-size: 1.2em;
+    line-height: 1.7;
+    animation: riseToCenter 6s ease forwards;
+    display: none;
+  }
+  
+  @keyframes riseToCenter {
+    0% {
+      bottom: -100px;
+      opacity: 0;
+    }
+    50% {
+      bottom: 40%;
+      opacity: 0.8;
+    }
+    100% {
+      bottom: 50%;
+      opacity: 1;
+    }
+  }
+  .surprise-page {
+    background: linear-gradient(to bottom, #fff0f5, #ffeef4);
+    text-align: center;
+    padding-bottom: 5em;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .gift-container {
+    margin-top: 4em;
+    cursor: pointer;
+  }
+  
+  .gift-box {
+    font-size: 6em;
+    animation: bounce 2s infinite;
+  }
+  
+  .tap-text {
+    color: #c2185b;
+    font-style: italic;
+    margin-top: 0.5em;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  /* 🌸 Flower Reveal */
+  .flower-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  .flower {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ff69b4, #e91e63);
+    animation: bloom 3s ease forwards;
+    box-shadow: 0 0 40px rgba(255, 105, 180, 0.6);
+    margin-bottom: 2em;
+  }
+  
+  @keyframes bloom {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  
+  .love-message {
+    max-width: 700px;
+    padding: 2em;
+    font-size: 1.2em;
+    line-height: 1.8;
+    background: #ffe4ec;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    color: #880e4f;
+    animation: fadeIn 4s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .surprise-page {
+    background: linear-gradient(to bottom, #fff0f5, #ffeef4);
+    text-align: center;
+    padding-bottom: 5em;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .gift-scene {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+  }
+  
+  .gift-box {
+    font-size: 6em;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    position: relative;
+    z-index: 2;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  
+  /* 🌸 Flower stem and bloom */
+  .flower-stem {
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .flower {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #ff69b4, #e91e63);
+    border-radius: 50%;
+    opacity: 0;
+    transform: scale(0) translateY(40px);
+    transition: all 2s ease;
+    box-shadow: 0 0 30px rgba(255,105,180,0.5);
+  }
+  
+  /* 🌹 Love Message */
+  .love-message {
+    max-width: 600px;
+    margin: 3em auto 0;
+    padding: 2em;
+    background: #ffe4ec;
+    color: #880e4f;
+    font-size: 1.2em;
+    line-height: 1.8;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    opacity: 0;
+    transition: opacity 3s ease;
+  }
+  
